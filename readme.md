@@ -15,3 +15,10 @@ cd leiloes-site/scraper
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python fetch_auctions.py
+
+3) `netlify.toml` – instrução de build básica (ajuste ao seu stack):
+
+```toml
+[build]
+  publish = "frontend"
+  command = "echo 'Site estático, nada para compilar'"

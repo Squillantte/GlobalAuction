@@ -1,3 +1,5 @@
+python -u play.py
+
 #!/usr/bin/env python3
 # python gerar_plugins.py
 from pathlib import Path

@@ -64,7 +64,7 @@ async def _parse_row(session: aiohttp.ClientSession, row, photos_dir: Path) -> A
     date_iso = datetime.strptime(date_text, "%d/%m/%Y").replace(tzinfo=timezone.utc).isoformat()
 
     return Auction(
-        source="TJSC",
+        source="TJRJ",
         id=id_,
         title=title,
         auction_date=date_iso,

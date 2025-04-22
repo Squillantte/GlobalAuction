@@ -1,4 +1,5 @@
 """
 Pacote raiz do scraper.
-Coloque aqui inicializações globais se necessário.
+Exponha aqui apenas o que deve ser público.
 """
+from .fetch_auctions import fetch_auctions  # noqa: F401

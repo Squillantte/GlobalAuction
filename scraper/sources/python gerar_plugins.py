@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# gerar_plugins.py
+# python gerar_plugins.py
 from pathlib import Path
 
 estados = [

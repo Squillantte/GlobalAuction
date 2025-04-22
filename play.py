@@ -1,3 +1,5 @@
+python -u play.py
+
 """
 Script de uso rápido do seu scraper.
 

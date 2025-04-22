@@ -1,0 +1,13 @@
+# Node
+node_modules/
+# Python
+__pycache__/
+*.pyc
+# Virtual env
+.venv/
+env/
+# Build outputs Netlify ou outros
+dist/
+build/
+# Outros
+.DS_Store
